@@ -1,0 +1,25 @@
+{
+  "name": "carousel",
+  "version": "0.0.0",
+  "authors": [
+    "hazelGranger <wangzhen_blcu@163.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "carousel"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}

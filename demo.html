@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>carousel</title>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<style type="text/css">
+		.carousel > *{
+			display: none;
+		}
+		.carousel .carousel-active{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+<section class="carousel" style="margin-top: 100px;">
+	<div class="container carousel-active" slide-id="1">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<h2>slide 1</h2>
+				<p>slide 1  this is slide 1</p>
+				<p>hahaha</p>
+			</div>
+			<img src="css-3_official.svg" alt="">
+		</div>
+	</div>
+	<div class="container" slide-id="2">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<h2>slide 2</h2>
+				<p>slide 2  this is slide 2</p>
+				<p>hahaha</p>
+			</div>
+			<img src="bower.svg" alt="">
+		</div>
+	</div>
+	<div class="container" slide-id="3">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<h2>slide 3</h2>
+				<p>slide 3  this is slide 3</p>
+				<p>hahaha</p>
+			</div>
+			<img src="jquery.svg" alt="" width="300px;">
+		</div>
+	</div>
+</section>
+	
+</body>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="carousel.js"></script>
+</html>
